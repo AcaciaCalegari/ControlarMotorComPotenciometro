@@ -1,6 +1,6 @@
 //Controlar pra onde o servo motor gira com o Potenciomêtro
 //AcaciaCalegari
-//29/01/2019
+//29/01/2020
 //O pino do meio do potenciometro eh o arduino
 //o pino do meio do motor no positivo
 #include <VarSpeedServo.h>
@@ -13,7 +13,7 @@ VarSpeedServo servo1; //declarando um nome p poder controlar a velocidade
 
 void setup() {
   
-  servo1.attach(pinServo); //falando p motor "se liga, mano"
+  servo1.attach(pinServo); // associacao do motor cm o pino , q nesse caso eh o dgital8
   Serial.begin(9600); //Ajuste da Tranferencia de bits p seg
 
   
